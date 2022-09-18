@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primaryColor">#427bab</color>
+    <color name="primaryDarkColor">#3c709a</color>
+    <color name="colorPrimaryVariant">@color/primaryDarkColor</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="colorSecondary">@color/primaryColor</color> <!-- FAB Button -->
+    <!--<color name="colorSecondaryVariant">#4F4F4F</color>--> <!-- disabled/inactive states -->
+    <color name="colorSecondaryVariant">#D3D3D3</color>
+
+    <color name="colorOnSecondary">@color/colorOnPrimary</color>
+    <color name="headerColor">@color/dtt_e</color>
+
+    <color name="primaryColor30">#4D427bab</color>
+
+    <color name="separatorColor">#1F000000</color>
+    <color name="separatorStyleColor">#bbbbbb</color>
+
+    <color name="secondaryColor">#E20074</color>
+    <color name="secondaryDarkColor">@color/primaryColor</color>
+    <color name="secondaryTextColor">@color/zGray</color>
+    <color name="secondaryTextColorDisable">@color/colorSecondaryVariant</color>
+    <color name="secondaryTextColorGray">#6b6b6b</color>
+
+    <color name="primaryTextColor">#262626</color>
+    <color name="iconAsTextColor">@color/primaryTextColor</color>
+
+    <color name="tripIndicatorBackgroundColor">@color/dtt_e_30</color>
+
+    <color name="zGray">#6b6b6b</color>
+    <color name="zGrayOpacity30">@color/colorSecondaryVariant</color>
+    <color name="zLightGray">#ededed</color>
+    <color name="zPrimaryLightColor">#64b9e4</color>
+    <color name="zErrorTextColor">#d90000</color>
+    <color name="red">#d90000</color>
+
+    <color name="grayLine">#d0d0d0</color>
+
+    <color name="dtt_e">#6BB324</color>
+    <color name="dtt_e_30">#306BB324</color>
+    <color name="dtt_o">#FECB00</color>
+    <color name="dtt_o_50">#50FECB00</color>
+
+    <color name="drive_red">#d32f2f</color>
+    <color name="drive_orange">@color/dtt_o</color>
+
+    <color name="bottom_sheet_background_color">#e9e9e9</color>
+    <color name="bottom_sheet_selected">@color/primaryColor</color>
+    <color name="bottom_sheet_enabled">#262626</color>
+    <color name="bottom_sheet_disabled">@color/colorSecondaryVariant</color>
+    <color name="bottom_sheet_arrow_color">@color/primaryColor</color>
+
+    <color name="icon_enabled">@color/primaryColor</color>
+    <color name="icon_disabled">@color/colorSecondaryVariant</color>
+    <color name="icon_pressed_primary">#6f9bbf</color>
+    <color name="icon_pressed_secondary">#33427bab</color>
+
+    <color name="cardSelected">#ededed</color>
+    <color name="cardUnselected">@color/colorOnPrimary</color>
+    <color name="task_card_background_color">@color/colorOnPrimary</color>
+    <color name="cardStrokeColor">#6b6b6b</color>
+    <color name="task_list_background_color_zug">#E2E7EC</color>
+    <color name="task_list_background_color_ina">#E9F4DE</color>
+    <color name="task_list_background_color_tf">#FFEDD9</color>
+    <color name="listBackground">#f4f4f4</color>
+
+    <color name="gray_70">#b2cccccc</color>
+    <color name="blink_color">#4D6BB324</color>
+</resources>

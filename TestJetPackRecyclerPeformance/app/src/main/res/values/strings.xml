@@ -1,0 +1,989 @@
+<resources>
+    <string name="app_name">TestJetPackRecyclerPeformance</string>
+
+    <!-- Notifications -->
+    <string name="notification_efb_chanel_pause">Pause</string>
+    <string name="notification_efb_channel_description">MAD</string>
+
+    <!-- Strings related to login -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_status">Status</string>
+    <string name="title_details">Details</string>
+    <string name="title_dialog_input_count">Menge eingeben</string>
+
+    <string name="empty" />
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">OK</string>
+    <string name="toolbar_save_button_title">Speichern</string>
+
+    <string name="status_assigned">Zugewiesen</string>
+    <string name="status_in_progress">In Arbeit</string>
+    <string name="status_technical_ready">Technisch Fertig</string>
+    <string name="status_done">Erledigt</string>
+    <string name="status_canceled">Storno</string>
+    <string name="status_unknown">Unbekannter Status</string>
+
+    <string name="change_status_to_tech_ready_subtitle">Statuswechsel nach Technisch Fertig</string>
+
+    <!-- Navigation Menu -->
+    <string name="nav_menu_header_last_update">Letzter Sync am %s</string>
+    <string name="nav_menu_assigned">Zugewiesen</string>
+    <string name="nav_menu_in_progress">In Arbeit</string>
+    <string name="nav_menu_technical_ready">Technisch Fertig</string>
+    <string name="nav_menu_canceled">Storno</string>
+    <string name="nav_menu_done">Erledigt</string>
+    <string name="nav_menu_all">Alle AA</string>
+    <string name="nav_menu_drive">Fahrten</string>
+    <string name="nav_menu_atb">Zeiterfassung</string>
+    <string name="nav_menu_synchronisation">Synchronisation</string>
+    <string name="nav_menu_transactions_log">Transaktionslog</string>
+    <string name="nav_menu_settings">Einstellungen</string>
+    <string name="nav_menu_enter">Anmelden</string>
+    <string name="nav_menu_about">Über diese App</string>
+    <string name="nav_menu_update">Auf Update prüfen</string>
+    <string name="nav_menu_alarm">Alarmplaner</string>
+    <string name="bottom_menu_status">Statusw.</string>
+    <string name="sync_password_expired">Passwort abgelaufen.</string>
+    <string name="sync_changed_password">ÄNDERN</string>
+
+    <!-- Task list -->
+    <string name="task_list_title_assigned">Zugewiesen (%1$s)</string>
+    <string name="task_list_title_in_progress">In Arbeit (%1$s)</string>
+    <string name="task_list_title_technical_ready">Technisch Fertig (%1$s)</string>
+    <string name="task_list_title_canceled">Storno (%1$s)</string>
+    <string name="task_list_title_done">Erledigt (%1$s)</string>
+    <string name="task_list_title_all">Alle AA (%1$s)</string>
+
+    <string name="details_title">Auftragsdetails</string>
+    <string name="details_details_group">Details</string>
+    <string name="details_technical_details_group">Technische Details</string>
+    <string name="details_organizer_data_group">Termindaten</string>
+    <string name="details_ip_data_group">IP-Daten</string>
+    <string name="details_further_data_group">weitere Daten</string>
+    <string name="details_mounting_group">Montageort</string>
+    <string name="details_contact_list_group">Ansprechpartnerliste</string>
+    <string name="details_involved_group">Beteiligte AA</string>
+    <string name="details_editing_comment_title">Bemerkung AA</string>
+    <string name="details_editing_common_message_title">Langtext</string>
+    <string name="details_sma_number">SMA Nr</string>
+    <string name="details_task_id">AA-ID</string>
+    <string name="details_active">Aktiv</string>
+    <string name="details_priority">Prio</string>
+    <string name="details_task_comment">Bemerkung AA</string>
+    <string name="details_common_message">Langtext</string>
+    <string name="details_task_team">Auftragseingang Ressort</string>
+    <string name="details_task_short_description">Auftragskurzbeschreibung AA</string>
+    <string name="details_work_order_due_date">BA/FA betriebsbereit korrig.</string>
+    <string name="details_travel_time">Fahrtzeit in h</string>
+    <string name="details_pd_home_number">PD-Hausnummer</string>
+    <string name="details_pd_city">PD-Ort</string>
+    <string name="details_pd_district">PD-Ortsteil</string>
+    <string name="details_pd_postcode">PD-PLZ</string>
+    <string name="details_pd_street">PD-Strasse</string>
+    <string name="details_ptsg">PTSG</string>
+    <string name="details_task_number_ag">Auftragsnr. AG</string>
+    <string name="details_damage_caused_by">Schädiger</string>
+    <string name="details_maps_group">Google Maps</string>
+
+    <string name="details_customer_name">Kunde: Name des Ansprechpartners</string>
+    <string name="details_customer_name_nr">Tel.Nr. des Kunden</string>
+    <string name="details_contact_person">Auftraggeber: Name des Ansprechpartners</string>
+    <string name="details_contact_person_nr">Tel.Nr. des Auftraggebers</string>
+    <string name="details_lsz_serialnumber_erwuzi">LSZ/Ordnungsnr./ERWUZI/LSZE</string>
+    <string name="details_terminal_station_ab">Endst. A-B</string>
+    <string name="details_functional_key_number_ab">FSZ A-B</string>
+    <string name="details_vpsz_ab">VPSZ A-B</string>
+    <string name="details_control_station">Kontrollst.</string>
+    <string name="details_phone_number">Rufnr.</string>
+    <string name="details_onkz_asb">ONKZ/ASB</string>
+    <string name="details_vstknr">VStKNr</string>
+    <string name="details_coordination_point">Betr. Schaltstelle</string>
+    <string name="details_team_comment">Ressortinterner Vermerk</string>
+    <string name="details_asb">AsB</string>
+    <string name="details_fsz_coordination_point">FSZ Schaltstelle</string>
+    <string name="details_vpsz_coordination_point">VPSZ Schaltstelle</string>
+    <string name="details_vt_points_a">VtPunkte A</string>
+    <string name="details_vt_points_b">VtPunkte B</string>
+    <string name="details_earliest_start">Frühester Sollbeginn</string>
+    <string name="details_earliest_finish">Frühestes Sollende</string>
+    <string name="details_real_start">Ist-Beginn-Termin AA</string>
+    <string name="details_real_finish">Ist-Ende-Termin AA</string>
+    <string name="details_latest_finish_label">Spätestes Sollende</string>
+    <string name="details_latest_start_label">Spätester Sollbeginn</string>
+    <string name="details_should_start_label">Soll-Beginn-Termin AA</string>
+    <string name="details_should_finish_label">Soll-Ende-Termin AA</string>
+    <string name="details_duration_label">Sollzeitdauer (netto)</string>
+    <string name="details_coordination_token">Schalttoken</string>
+    <string name="details_pa_id">Phys. Access ID</string>
+    <string name="details_line_id">Line-ID</string>
+    <string name="details_connection_number">Anschluss-ID</string>
+    <string name="details_static_provisioning">Statische-Provisionierung</string>
+    <string name="details_inventory_id">Bauinventar-ID</string>
+    <string name="details_bandwidth_service">Bandbreite Service</string>
+    <string name="details_transmission_path">Übertragungsweg</string>
+    <string name="details_host_name_a">Hostname A</string>
+    <string name="details_ip_address_loopback_a">IP-Adresse/Loopback A</string>
+    <string name="details_interface_name_a">Interfacebezeichnung A</string>
+    <string name="details_host_name_b">Hostname B</string>
+    <string name="details_ip_address_loopback_b">IP-Adresse/Loopback B</string>
+    <string name="details_interface_name_b">Interfacebezeichnung B</string>
+    <string name="details_access_group_name">Bezeichnung</string>
+    <string name="details_access_group_bundle">Bundle</string>
+    <string name="details_access_group_type">Type</string>
+    <string name="details_access_group_task">Task</string>
+    <string name="details_target_number_of_access">TargetNumberOfAccess</string>
+    <string name="details_access_group_id">ID</string>
+    <string name="details_reference_description">LBZ Referenzleitung</string>
+    <string name="details_additional_comment_kkf">Zusatzbemerkung KKF</string>
+    <string name="details_project_aware_name">Projektkenner Name</string>
+    <string name="details_project_aware_value">Projektkenner Wert</string>
+    <string name="details_project_aware_comment">Projektkenner Bemerkung</string>
+    <string name="details_coupling_aware_name">Kopplungskenner Name</string>
+    <string name="details_coupling_aware_value">Kopplungskenner Wert</string>
+    <string name="details_coupling_aware_comment">Kopplungskenner Bemerkung</string>
+    <string name="details_installation_city_a">Ort A</string>
+    <string name="details_installation_district_a">Ortsteil A</string>
+    <string name="details_installation_postcode_a">PLZ A</string>
+    <string name="details_installation_street_a">Straße A</string>
+    <string name="details_installation_home_number_a">Hausnr. A</string>
+    <string name="details_installation_location_a">Kundenlokation A</string>
+    <string name="details_installation_class_id_a">KLS-ID A</string>
+    <string name="details_installation_city_b">Ort B</string>
+    <string name="details_installation_district_b">Ortsteil B</string>
+    <string name="details_installation_postcode_b">PLZ B</string>
+    <string name="details_installation_street_b">Straße B</string>
+    <string name="details_installation_home_number_b">Hausnr. B</string>
+    <string name="details_installation_location_b">Kundenlokation B</string>
+    <string name="details_installation_class_id_b">KLS-ID B</string>
+
+    <string name="details_contact_person_role">Rolle</string>
+    <string name="details_contact_person_last_name">Name</string>
+    <string name="details_contact_person_phone">Telefon-Nr.</string>
+    <string name="details_contact_person_email">E-Mail</string>
+
+    <string name="details_related_task_short_description">Kurzbeschreibung</string>
+    <string name="details_related_task_latest_finish">Spätestes Sollende</string>
+    <string name="details_related_task_status">Status</string>
+    <string name="details_related_task_current_worker">Aktueller Bearbeiter</string>
+    <string name="details_related_task_phone">Rufnummer akt. Bearbeiter</string>
+
+    <string name="details_error_call_impossible">Anruf ist nicht möglich.</string>
+    <string name="details_error_task_deleted">Der Auftrag ist nicht verfügbar.</string>
+    <string name="details_add_comment_button_text">Neu</string>
+
+    <string name="details_mess_app_title">MessApp</string>
+    <string name="details_mess_app_galvanic_and_xdsl_measurement">Galvanisch+xDSL, BNG</string>
+    <string name="details_mess_app_galvanic_measurement">Galvanische Leitungsmessung</string>
+    <string name="details_mess_app_xdsl_measurement">xDSL Messung</string>
+    <string name="mess_app_dialog_measure_success">%1$s ist abgeschlossen.</string>
+    <string name="mess_app_dialog_to_mess_app">MessApp</string>
+    <string name="mess_app_error_wrong_values">%1$s ist fehlgeschlagen. Die Anfrage enthält einen ungültigen Wert.</string>
+    <string name="mess_app_error_internal">%1$s ist fehlgeschlagen. MessApp-Fehler.</string>
+    <string name="mess_app_error_connection">%1$s ist fehlgeschlagen. Die Verbindung fehlt. </string>
+    <string name="mess_app_error_unknown">%1$s ist fehlgeschlagen.</string>
+    <string name="mess_app_warning_measurement_paused">Die %1$s wurde gestoppt. Bitte warten Sie.</string>
+
+    <string name="change_status_start_time_in_future">Ist-Beginn-AA darf nicht in der Zukunft liegen!</string>
+    <string name="change_status_start_time_more_that_finish_time">Soll-Ende-AA-korr darf nicht kleiner als Ist-Beginn-AA sein!</string>
+    <string name="change_status_save_button_text">Speichern</string>
+    <string name="change_status_next_button_text">Weiter</string>
+    <string name="change_status_wfe_order_warning_message">Der ausgewählte Auftrag hatte zum letzten Synchronisationszeitpunkt noch keine WFE-Freigabe. Bitte beim Disponenten nachfragen, ob die Freigabe nun vorliegt.</string>
+
+    <string name="wfmt_profile_title">Benutzerprofil</string>
+    <string name="wfmt_profile_username_label">Kennung:</string>
+    <string name="wfmt_profile_change_pass">Passwort ändern</string>
+    <string name="wfmt_profile_client_reset">Benutzerprofil zurücksetzen</string>
+    <string name="edit_profile_button_name">Benutzerprofil anzeigen</string>
+    <string name="wfmt_profile_client_reset_message">Sämtliche Daten dieser Anwendung werden durch den Client Reset gelöscht und Sie müssen sich erneut am Server mit Login und Passwort anmelden. Client Reset durchführen?</string>
+    <string name="wfmt_profile_client_reset_dialog_button_label">OK</string>
+
+    <string name="change_pass_title">Passwort ändern</string>
+    <string name="change_pass_connection_required">Diese Änderung muss mit dem Server synchronisiert werden.</string>
+    <string name="change_pass_success">Passwort geändert.</string>
+    <string name="change_pass_username_label">Benutzer</string>
+    <string name="change_pass_old_password_label">Altes Passwort</string>
+    <string name="change_pass_new_password_label">Neues Passwort</string>
+    <string name="change_pass_confirm_password_label">Bestätigung</string>
+    <string name="change_pass_btn_label">Speichern</string>
+    <string name="change_pass_btn_cancel_label">Abbrechen</string>
+    <string name="change_pass_err_new_pass_short">Das Passwort muss mindestens 12 Zeichen lang sein.</string>
+    <string name="change_pass_err_new_pass_long">Das Passwort darf maximal 30 Zeichen lang sein.</string>
+    <string name="change_pass_err_new_pass_confirm">Das neue Passwort stimmt mit der Bestätigung nicht überein.</string>
+    <string name="change_pass_err_new_pass_all">Das Passwort muss mindestens 3 Zeichengruppen enthalten: Klein-, Großbuchstaben, Ziffern oder Sonderzeichen.</string>
+    <string name="change_pass_err_old_pass_eq_new">Das neue Passwort darf nicht gleich dem alten sein.</string>
+    <string name="change_pass_dialog_title">Fehler</string>
+
+    <string name="about_app_push_messages">Pushnachrichten</string>
+    <string name="about_app_privacy">Datenschutz</string>
+    <string name="about_app_imprint">Impressum</string>
+    <string name="about_app_send_log">Logdatei</string>
+    <string name="about_app_faq">FAQ</string>
+    <string name="about_app_feedback">Feedback</string>
+    <string name="about_app_send_logs_error_text">Logdatei wurde nicht gefunden.</string>
+    <string name="export_logs_dialog_title">Möchten Sie die Logdatei:</string>
+    <string name="export_logs_finished">Speicherung erfolgreich abgeschlossen.</string>
+    <string name="export_logs_dialog_email_option">Senden</string>
+    <string name="export_logs_dialog_downloads_option">Im Ordner \"Download\" speichern</string>
+    <string name="export_logs_dialog_downloads_email_option">Senden und im Ordner \"Download\" speichern</string>
+    <string-array name="export_log_options">
+        <item>@string/export_logs_dialog_email_option</item>
+        <item>@string/export_logs_dialog_downloads_option</item>
+        <item>@string/export_logs_dialog_downloads_email_option</item>
+    </string-array>
+
+    <string name="imprint_company">Unternehmen</string>
+    <string name="imprint_company_name">Deutsche Telekom IT GmbH</string>
+    <string name="imprint_developer_team">Entwickelt von</string>
+    <string name="imprint_developer_team_name">MAD Team</string>
+    <string name="imprint_email">Kontaktadresse</string>
+    <string name="imprint_email_name">FMB_Helpdesk_MAD@t-systems.com</string>
+    <string name="imprint_yam_page">Webseite</string>
+    <string name="imprint_yam_page_name">https://yam-united.telekom.com/workspaces/mad/apps/content/home </string>
+    <string name="imprint_client_version">Client Version</string>
+    <string name="imprint_airwatch_version">Airwatch Version</string>
+
+    <!-- PushMessages -->
+    <string name="push_messages_fragment_title">Pushnachrichten</string>
+    <string name="push_messages_empty_message">Sie haben noch keine Pushnachrichten.</string>
+    <string name="push_messages_title">Thema</string>
+    <string name="push_messages_text">Meldung</string>
+    <string name="push_messages_channel_description">MAD</string>
+
+    <!-- FaqFragment -->
+    <string name="fragment_faq_title">FAQ</string>
+
+    <string name="fragment_faq_1_title">Auftragsliste</string>
+    <string name="fragment_faq_1_tasks_1">Auftrag ist ohne WFE Freigabe</string>
+    <string name="fragment_faq_1_tasks_2">Auftrag ist mit WFE Freigabe</string>
+    <string name="fragment_faq_1_tasks_3">Disposperre gesetzt</string>
+    <string name="fragment_faq_1_tasks_4">Termin gefährdet</string>
+    <string name="fragment_faq_1_tasks_5">Auftrag ist zielführend</string>
+    <string name="fragment_faq_1_tasks_6">neue Meldung in Langtext / BemerkungAA</string>
+
+    <string name="fragment_faq_2_title">Einstellungen</string>
+    <string name="fragment_faq_2_settings_1">Reihenfolge in der AA Liste kann geändert werden: Balken halten und Eintrag nach oben oder nach unten ziehen</string>
+    <string name="fragment_faq_2_settings_2">Kenner zur Anzeige des Feldes auf dem Fahrtendialog</string>
+    <string name="fragment_faq_2_settings_3">Feld aus AA-Liste löschen: Feld nach links oder rechts wischen</string>
+    <string name="fragment_faq_2_settings_4">MAD passt das Farbschema gemäß den Standard Android-Einstellungen an</string>
+    <string name="fragment_faq_2_settings_3_value">Geste\n\"Wischen\"</string>
+    <string name="fragment_faq_2_settings_4_value">Farbschema\n\"Systemabhängig\"</string>
+
+    <string name="fragment_faq_3_title">Anlagenliste</string>
+    <string name="fragment_faq_3_attachments_1">erweitertes Menü aufrufen: Langklick</string>
+    <string name="fragment_faq_3_attachments_1_value">Geste:\n\"Langklick\"</string>
+    <string name="fragment_faq_3_attachments_2">Ordnerstruktur anzeigen</string>
+    <string name="fragment_faq_3_attachments_3">Dateiliste anzeigen</string>
+
+    <string name="fragment_faq_4_title">Materialbearbeitung</string>
+    <string name="fragment_faq_4_materials_1">Verbrauchsmaterial verbuchen</string>
+    <string name="fragment_faq_4_materials_2">Spalten konfigurieren</string>
+
+    <string name="fragment_faq_5_title">Suche und Sortierung</string>
+    <string name="fragment_faq_5_sort">Auf das Icon klicken: Sortierung aktivieren \nErneut klicken: Sortierung deaktivieren</string>
+    <string name="fragment_faq_5_search">Klick auf Lupe: Suche aktivieren</string>
+    <string name="fragment_faq_5_search_result_number">Anzahl der Suchergebnisse</string>
+
+    <string name="fragment_faq_6_title">Abkürzungen</string>
+    <string name="fragment_faq_6_abbreviation_1">https://mywiki.telekom.de/pages/viewpage.action?pageId=969934908</string>
+
+    <!-- Feedback -->
+    <string name="feedback_fragment_title">Feedback/Vorschlag senden</string>
+
+    <string name="feedback_hint_text">Für Euer Feedback sind wir stets dankbar!
+        \nUm ein Fehlerticket zu erstellen wenden Sie sich bitte an den MAD Helpdesk:
+        \nRufnummer: 0699 73179 9171
+        \nE-Mail-Adresse: FMB_Helpdesk_MAD@dli.telekom.com
+    </string>
+
+    <string name="feedback_type_label">Thema</string>
+    <string name="feedback_subtype_label">Kategorie</string>
+    <string name="feedback_email_label">E-mail</string>
+    <string name="feedback_phone_label">Rufnummer</string>
+    <string name="feedback_description_label">Beschreibung</string>
+    <string name="feedback_send_button_label">Senden</string>
+
+    <string name="feedback_type_feedback">Feedback</string>
+    <string name="feedback_type_suggest">Vorschlag</string>
+
+    <string name="feedback_subtype_attachment">Anlagen</string>
+    <string name="feedback_subtype_work_order">Arbeitsauftrag</string>
+    <string name="feedback_subtype_trip">Fahrten</string>
+    <string name="feedback_subtype_change_status">Statuswechsel</string>
+    <string name="feedback_subtype_time_tracking">Zeiterfassung</string>
+    <string name="feedback_subtype_other">Sonstiges</string>
+
+    <string name="feedback_email_and_phone_is_empty_error">Bitte E-Mail-Adresse oder Rufnummer ausfüllen.</string>
+    <string name="feedback_email_is_too_long_error">E-Mail ist zu lang.</string>
+    <string name="feedback_invalid_email_error">E-Mail-Format nicht gültig.</string>
+    <string name="feedback_invalid_phone_error">Rufnummer-Format nicht gültig.</string>
+    <string name="feedback_phone_is_too_long">Rufnummer ist zu lang.</string>
+    <string name="feedback_description_is_empty_error">Bitte Beschreibung eintragen.</string>
+    <string name="feedback_description_is_too_long_error">Beschreibung ist zu lang.</string>
+
+    <string name="feedback_sent_success_msg">Danke für ihre Nachricht. Bei Fragen kommen wir auf Sie zurück.</string>
+
+    <string name="follow_up_title">Folgeauftrag</string>
+    <string name="follow_up_dates">Termindaten</string>
+    <string name="follow_up_earliest_start">Frühester Soll-Beginn</string>
+    <string name="follow_up_latest_start">Spätester Soll-Beginn</string>
+    <string name="follow_up_earliest_end">Frühestes Soll-Ende</string>
+    <string name="follow_up_latest_end">Spätestes Soll-Ende</string>
+    <string name="follow_up_usign_to_me">Auftrag mir zuweisen</string>
+    <string name="follow_up_relevanz_label">Zielführend</string>
+    <string name="follow_up_coupling_is_corrected">Kopplung Betriebsbereit korr.</string>
+    <string name="follow_up_duration">Sollzeitdauer</string>
+    <string name="follow_up_comment">Bemerkung Arbeitsauftrag</string>
+    <string name="follow_up_task_short_description">Kurzbeschreibung</string>
+    <string name="follow_up_save">Speichern</string>
+    <string name="follow_up_error_short_duration">Bitte die Sollzeitdauer mit einem Wert größer oder gleich 6 Minuten füllen.</string>
+    <string name="follow_up_error_not_valid_duration">Falsches Format für Dauer.</string>
+    <string name="follow_up_error_wrong_sequence">Der Inhalt der Zeitfelder entspricht nicht folgender Reihenfolge:
+        Akt-Termin &lt;= Frühester Sollbeginn &lt;= Spätester Sollbeginn &lt;= Frühestes Sollende &lt;= Spätestes Sollende.</string>
+    <string name="follow_up_error_finish_in_past">\"Spätestes Soll-Ende\" darf nicht in der Vergangenheit liegen!</string>
+    <string name="follow_up_error_empty_comment">Bitte Bemerkung AA eintragen.</string>
+    <string name="follow_up_warning_coupling_disabled">Der Termin Betriebsbereit korr./Technisch Fertig kann bei dieser Eingabe nicht mehr
+         eingehalten werden. Wollen Sie wirklich mit diesen Terminangaben abspeichern?</string>
+    <string name="follow_up_warning_time_conflict">Der späteste Sollende-Termin würde zu einem Konflikt mit den fixierten Terminen in dem AA "Konflikt-AS/MS: %s" führen.</string>
+    <string name="follow_up_warning_approve">Ja</string>
+    <string name="follow_up_warning_decline">Abbrechen</string>
+    <string name="follow_up_warning_title">Warnung</string>
+    <string name="empty_task_list_message">Sie haben noch keine Aufträge.</string>
+    <string name="change_status_window_title">Statuswechsel nach</string>
+    <string name="change_status_current_status_label_text">Aktueller Status:</string>
+    <string name="change_status_next_status_label_text">Nächster Status:</string>
+    <string name="change_status_start_time_label_text">Ist-Beginn-AA:</string>
+    <string name="change_status_end_time_label_text">Soll-Ende-AA-korr:</string>
+    <string name="change_status_end_time_label_text_done">Ist-Ende-AA:</string>
+    <string name="change_status_test_equipment_label">Prüfmittel</string>
+    <string name="change_status_final_done_label">Final erledigt</string>
+    <string name="change_status_comment_label">Bemerkung zur Fertigstellung</string>
+    <string name="change_status_addition_value_label">Statusergänzung</string>
+    <string name="change_status_addition_description_label">Statusergänzung Beschreibung</string>
+    <string name="change_status_for_relevant_test_equipment_validation_error">Der Text im Prüfmittelfeld darf maximal 255 Zeichen lang sein.</string>
+    <string name="change_status_for_relevant_comment_validation_error">Der Text im Bemerkungsfeld darf maximal 1000 Zeichen lang sein.</string>
+    <string name="change_status_for_relevant_comment_empty_error">Bitte das Bemerkungsfeld zur Fertigstellung ausfüllen.</string>
+    <string name="change_status_for_relevant_comment_required_error">Bitte das Bemerkungsfeld zur Fertigstellung ausfüllen.</string>
+    <string name="change_status_additional_value_is_default">Bitte wählen Sie eine gültige Statusergänzung aus, DUMMY_SERG ist nicht erlaubt.</string>
+    <string name="change_status_for_relevant_finish_time_in_future">Soll-Ende-AA-korr darf nicht in der Zukunft liegen!</string>
+    <string name="change_status_for_relevant_start_time_in_future">Ist-Beginn-AA darf nicht in der Zukunft liegen!</string>
+    <string name="change_status_for_done_start_in_future">Ist-Beginn-AA muss zwischen dem Termin „Auftragseingang Ressort“ und dem aktuellen Zeitpunkt liegen.</string>
+    <string name="change_status_for_done_start_before_task_team">Ist-Beginn-AA muss zwischen dem Termin „Auftragseingang Ressort“ und dem aktuellen Zeitpunkt liegen.</string>
+    <string name="change_status_for_done_finish_in_future">Ist-Ende-AA muss zwischen dem Ist-Beginn-AA und dem aktuellen Zeitpunkt liegen.</string>
+    <string name="change_status_for_done_finish_before_start">Ist-Ende-AA muss zwischen dem Ist-Beginn-AA und dem aktuellen Zeitpunkt liegen.</string>
+    <string name="change_status_for_done_has_uncompleted_trips">Es sind noch unvollständige Fahrten vorhanden. Zum Erledigen des Auftrags müssen diese vervollständigt oder gelöscht werden.</string>
+    <string name="change_status_unknown_error">Unbekannter Fehler.</string>
+    <string name="test_equipment_dialog_title">Prüfmittel eingeben</string>
+    <string name="comment_dialog_title">Bemerkung</string>
+
+    <!-- Final Done fragment -->
+    <string name="fragment_final_done_title">Final erledigt</string>
+    <string name="fragment_final_done_customer_notify_label">Kundenbenachrichtigung</string>
+    <string name="fragment_final_done_customer_notify_time_label">Benachrichtigungszeit</string>
+    <string name="fragment_final_done_no_customer_label">Kunde nicht erreicht</string>
+    <string name="fragment_final_done_problem_solved_label">Störung abgeschlossen</string>
+
+    <!-- Vzg fragment -->
+    <string name="fragment_vzg_title">VZGrund</string>
+    <string name="fragment_vzg_key_label">Schlüssel</string>
+    <string name="fragment_vzg_origin_label">Herkunft</string>
+    <string name="fragment_vzg_detailing_label">Details</string>
+    <string name="fragment_vzg_detail_vzg_label">Details VZG</string>
+    <string name="fragment_vzg_delay_cause_label">VZGrund</string>
+
+    <!-- Fkl View -->
+    <string name="fkl_fragment_title">Fehlerklassifizierung</string>
+    <string name="fkl_typ_label">Auftragstyp:</string>
+    <string name="fkl_platform_label">Plattform:</string>
+    <string name="fkl_object_type_label">Objektart:</string>
+    <string name="fkl_unit_label">H/Ü Einh:</string>
+    <string name="fkl_module_label">Baugruppe:</string>
+    <string name="fkl_error_cause_label">Ursache:</string>
+    <string name="fkl_error_cause_x_label">Ursache D:</string>
+    <string name="fkl_activity_label">Tätigkeit:</string>
+
+    <!-- Tafel View -->
+    <string name="tafel_fragment_title">TAFEL-Daten</string>
+    <string name="tafel_fees_start_date_label">Beginn Entgeltgebpf.</string>
+    <string name="tafel_termination_fees_label">Ende Entgeltgebpf.</string>
+    <string name="tafel_planned_date_label">Ist-Termin Vers. Planungsunt.</string>
+    <string name="tafel_technical_delivery_label">Techn. Übergabe EE</string>
+    <string name="tafel_nk_real_date_label">NK Ist-Termin</string>
+    <string name="tafel_c4_deployment_label">Vers. Bereitstellungsprot.</string>
+    <string name="tafel_c4_network_label">Netzverb. vorbereitet</string>
+    <string name="tafel_wmsti_comment_label">Bemerkung WFM T</string>
+    <string name="tafel_comment_dialog_title">Bemerkung WFM T</string>
+    <string name="tafel_wrong_field_message">%s muss zwischen dem Termin „Auftragseingang Ressort“ und dem aktuellen Zeitpunkt liegen.</string>
+    <string name="tafel_too_long_comment_error">Bemerkung WFM T darf maximal 255 Zeichen lang sein.</string>
+    <string name="tafel_optional_mark">Optional</string>
+
+    <!-- Settings fragment -->
+    <string name="settings_fragment_rest_to_default_menu">Reset</string>
+    <string name="settings_fragment_rest_dialog_title">Reset der Einstellungen</string>
+    <string name="settings_fragment_rest_dialog_message">Möchten Sie Änderungen auf Defaultwert setzen?</string>
+    <string name="settings_fragment_rest_all_dialog_message">Möchten Sie wirklich alle persönliche Änderungen auf Defaultwert setzen?</string>
+
+
+    <string name="settings_fragment_auto_theme_name">Systemabhängig</string>
+    <string name="settings_fragment_wrong_theme_name">Falsch</string>
+    <string name="settings_fragment_day_theme_name">Hell</string>
+    <string name="settings_fragment_night_theme_name">Dunkel</string>
+    <string name="settings_fragment_theme_switch_title">Farbschema</string>
+    <string name="settings_fragment_dialog_title">Farbschema</string>
+    <string name="settings_fragment_font_field_name">Schriftgröße</string>
+    <string name="settings_fragment_virtual_fields_name">AA-Info Felder konfigurieren</string>
+    <string name="settings_atb_daily_report_enabled">Zeiterfassung</string>
+    <string name="settings_atb_work_report_enabled">nur Pausenzeitbuchung</string>
+    <string name="settings_no_efb_hard_lock_enabled">Sperre bei aktiver Fahrt</string>
+    <string name="settings_kanban_view_color_schema">farbige Kanban-Spalten</string>
+    <string-array name="theme_types">
+        <item>@string/settings_fragment_auto_theme_name</item>
+        <item>@string/settings_fragment_day_theme_name</item>
+        <item>@string/settings_fragment_night_theme_name</item>
+    </string-array>
+    <string name="settings_fragment_done_offset_title">Historie von erledigten AA</string>
+    <string name="settings_fragment_done_offset_disabled">Ausgeschaltet</string>
+    <string name="settings_fragment_done_offset_1_day">1 Tag</string>
+    <string name="settings_fragment_done_offset_2_days">2 Tage</string>
+    <string name="settings_fragment_done_offset_3_days">3 Tage</string>
+    <string name="settings_fragment_done_offset_unknown">Fehler</string>
+    <string-array name="done_offsets">
+        <item>@string/settings_fragment_done_offset_disabled</item>
+        <item>Anzeige für 1 Tag</item>
+        <item>Anzeige für 2 Tage</item>
+        <item>Anzeige für 3 Tage</item>
+    </string-array>
+
+    <string name="snack_default_action_button">OK</string>
+    <string name="operations_change_status_to_work">Statuswechsel nach In Arbeit</string>
+    <string name="operations_change_status_to_ready">Statuswechsel nach Technisch Fertig</string>
+    <string name="operations_change_status_to_done">Statuswechsel nach Erledigt</string>
+    <string name="operations_unknown">Unbekannte Operation</string>
+    <string name="operations_edit_field">Bemerkung AA speichern</string>
+    <string name="operations_add_team_comment_field">Bemerkung AA speichern</string>
+    <string name="operations_create_followup_task">Folgeauftrag</string>
+    <string name="operations_create_interim_report">Zwischenmeldung</string>
+    <string name="operations_edit_user_profile">Benutzerprofil bearbeiten</string>
+    <string name="operations_confirm_download">Download der Datei</string>
+    <string name="operations_activation">Aktivieren</string>
+    <string name="operations_deactivation">Deaktivieren</string>
+    <string name="operations_save_drive">Fahrtdaten hinzufügen</string>
+    <string name="operations_delete_drive">Fahrtdaten löschen</string>
+    <string name="operations_edit_drive">Fahrtdaten bearbeiten</string>
+    <string name="operations_start_work">Kommen</string>
+    <string name="operations_stop_work">Gehen</string>
+    <string name="operations_add_pause">Pause</string>
+    <string name="operations_add_post_materials">Verbrauchsmaterial buchen</string>
+    <string name="operations_load_materials_availability">Material Buchung</string>
+    <string name="operations_change_real_finish_time">Ist-Ende ändern</string>
+    <string name="operations_send_feedback">Feedback senden</string>
+    <string name="operations_no_efb">Neue Fahrt</string>
+
+    <string name="operations_label_save_user_settings">Benutzereinstellungen speichern</string>
+    <string name="operations_label_confirm_downloaded_file">Download der Datei bestätigen</string>
+    <string name="operations_label_daily_report_work_start">Tagesbericht: Kommen</string>
+    <string name="operations_label_daily_report_work_stop">Tagesbericht: Gehen</string>
+    <string name="operations_label_daily_report_add_pause">Tagesbericht: Pause hinzufügen</string>
+    <string name="operations_label_save_user_profile_operation">Änderungen in Benutzerprofil speichern</string>
+
+    <string name="empty_operation_list_message">Synchronisation erfolgreich.</string>
+    <string name="operation_log_title">Transaktionslog</string>
+
+    <!-- Create interim report -->
+    <string name="create_interim_report_fragment_title">Zwischenmeldung</string>
+    <string name="create_interim_report_menu_title">Zwischenmeldung</string>
+    <string name="create_interim_report_subtitle">Neue Zwischenmeldung</string>
+    <string name="edit_interim_report_fragment_title">Zwischenmeldung</string>
+    <string name="edit_interim_report_subtitle_text">Langtext</string>
+    <string name="edit_interim_report_text_label">Meldung</string>
+    <string name="edit_interim_report_subtitle">Zwischenmeldung ändern</string>
+    <string name="edit_interim_report_on">An</string>
+    <string name="edit_interim_report_time_label">Tätigkeit am:</string>
+    <string name="interim_report_fragment_title">Zwischenmeldung</string>
+    <string name="interim_report_save_button_text">Speichern</string>
+    <string name="interim_report_card_system">Vorsystem Meldung</string>
+    <string name="interim_report_card_longtext">Langtext Meldung</string>
+    <string name="interim_report_card_system_longtext">Langtext und Vorsystem Meldung</string>
+    <string name="interim_report_empty_list_message">Alle Zwischenmeldungen erfolgreich synchronisiert.</string>
+    <string name="interim_report_text_is_empty_validation_message">Bitte Zwischenmeldung eingeben.</string>
+    <string name="interim_report_text_is_long_validation_message">Zwischenmeldung zu lang! Max. 1500 Zeichen.</string>
+    <integer-array name="message_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="message_type_labels">
+        <item>Vorsystem</item>
+        <item>Langtext</item>
+        <item>Langtext + Vorsystem</item>
+    </string-array>
+    <string name="sync_progress">Synchronisation läuft im Hintergrund. Speicherung nicht möglich.</string>
+
+    <string name="bottom_navigation_lock_task_title">Disposperre</string>
+    <string name="lock_task_dialog_message_set">Disposperre setzen?</string>
+    <string name="lock_task_dialog_message_unset">Disposperre aufheben?</string>
+    <string name="lock_task_dialog_positive_button_text">OK</string>
+    <string name="lock_task_dialog_negative_button_text">Abbrechen</string>
+
+    <!-- Userprofile fragment -->
+    <string name="user_profile_header_trips">PKW</string>
+    <string name="user_profile_fragment_title">Benutzerprofil</string>
+    <string name="user_profile_reference_data">Fahrzeugart</string>
+    <string name="user_profile_user_address">Adressfavorit</string>
+    <string name="user_profile_office_address">Ressortadresse</string>
+    <string name="user_profile_vehicle_sign">Kennzeichen</string>
+    <string name="user_profile_address_street">Straße</string>
+    <string name="user_profile_address_number">HNr</string>
+    <string name="user_profile_address_postcode">PLZ</string>
+    <string name="user_profile_address_city">Ort</string>
+    <string name="user_profile_address_district">Ortsteil</string>
+    <string name="user_profile_empty_address">"Adresse nicht angegeben"</string>
+    <string name="user_profile_address_hint">Bereitgestellt durch WFMT</string>
+    <string name="user_profile_save">Speichern</string>
+    <string-array name="user_profile_vehicle_type_labels">
+        <item>P – Privatfahrzeug</item>
+        <item>S – Sonstige</item>
+    </string-array>
+    <string-array name="user_profile_vehicle_types">
+        <item>P</item>
+        <item>S</item>
+    </string-array>
+
+    <string name="activation_dialog_message_activate_task_title">Auftrag aktivieren?</string>
+    <string name="activation_dialog_message_deactivate_task_title">Auftrag deaktivieren?</string>
+    <string name="activation_dialog_title">Anschlussaktivität</string>
+    <string name="activation_dialog_title_activate_task_title">Aktivierung</string>
+    <string name="activation_dialog_title_deactivate_task_title">Deaktivierung</string>
+    <string name="activation_dialog_message_activate_task_title_zug">Auftrag aktivieren und Status auf In Arbeit setzen?</string>
+
+    <string name="default_sort_menu_label">Default (Soll-Beginn)</string>
+    <string name="sort_menu_direction_spinner_label">Nach</string>
+    <string name="sort_menu_settings_title">Sortieren</string>
+
+    <!-- Daily Report -->
+    <string name="daily_report_fargment_title">Zeiterfassung</string>
+    <string name="daily_report_work_start_label">Kommenbuchung</string>
+    <string name="daily_report_first_work_start_label_text">Erste Buchung</string>
+    <string name="daily_report_work_start_label_text">Letzte Buchung</string>
+    <string name="daily_report_pause_label">Pausenbuchung</string>
+    <string name="daily_report_pause_start_label_text">Pausenbeginn</string>
+    <string name="daily_report_pause_stop_label_text">Pausenende</string>
+    <string name="daily_report_work_end_label">Gehenbuchung</string>
+    <string name="daily_report_work_stop_label_text">Letzte Buchung</string>
+    <string name="daily_report_work_stop_button_text">Gehen</string>
+    <string name="daily_report_pause_begin_button_text">Beginn</string>
+    <string name="daily_report_pause_end_button_text">Ende</string>
+    <string name="daily_report_work_start_button_text">Kommen</string>
+    <string name="daily_report_minutes_label_text">MIN.</string>
+    <string name="daily_report_hour_label_text">STD.</string>
+    <string name="daily_report_pause_label_text">Pause</string>
+    <string name="daily_report_work_label_text">Arbeitszeit</string>
+    <string name="daily_report_tab_work_label">Arbeitszeit</string>
+    <string name="daily_report_tab_pause_label">Pausenzeit</string>
+    <string name="dily_report_how_to_use_message">Die Arbeitszeitanzeige in MAD arbeitet nur richtig wenn:
+\n\u2023 „Kommen“ über MAD/WFMT erfolgt
+\n\u2023 „Gehen“ ausschließlich über MAD erfolgt
+\n\nDie Pausenzeitanzeige in MAD arbeitet nur richtig wenn:
+\n\u2023 „Beginn“/„Ende“ über die Pausenmaske gebucht wird (d.h. nicht über „Kommen“/„Gehen“).</string>
+    <string name="dily_report_how_to_use_title">Hinweis</string>
+    <string name="pause_reminder_message">Pausenbeginn in 15 Minuten.</string>
+
+    <!-- About -->
+    <string name="about_app_fragment_title">Über diese App</string>
+
+    <!-- Imprint -->
+    <string name="imprint_fragment_title">Impressum</string>
+
+    <!-- Privacy -->
+    <string name="privacy_fragment_title">Datenschutz</string>
+
+    <!-- Drive -->
+
+    <!-- DriveBlackBoxInformation -->
+
+    <string-array name="activation_option_to_progress_active">
+        <item>AA aktivieren</item>
+        <item>Aktivierung des aktiven AA beibehalten</item>
+        <item>Nebenzeit</item>
+    </string-array>
+
+    <string-array name="activation_option_to_ready_ordinary_active">
+        <item>Aktivierung des aktiven AA beibehalten</item>
+        <item>Nächsten AA aktivieren</item>
+        <item>Nebenzeit</item>
+    </string-array>
+
+    <string-array name="activation_option_to_ready_ordinary_unactive">
+        <item>Aktivierung des aktiven AA beibehalten</item>
+        <item>AA aktivieren</item>
+        <item>Nächsten AA aktivieren</item>
+    </string-array>
+
+    <string-array name="activation_option_to_ready_main_active">
+        <item>Nächsten AA aktivieren</item>
+        <item>Nebenzeit</item>
+    </string-array>
+
+    <string-array name="activation_option_to_ready_main_unactive">
+        <item>Aktivierung des aktiven AA beibehalten</item>
+        <item>Nächsten AA aktivieren</item>
+    </string-array>
+
+    <!-- DriveSettingsCarFragment -->
+
+    <!-- DriveCreateEfbTripFragment -->
+    <string name="bottom_navigation_view_no_efb_trip">Fahrten</string>
+
+    <!-- DriveActiveTripFragment -->
+
+    <!-- DriveEndTripFragment -->
+
+    <!-- DriveEditTripFragment -->
+
+    <!-- DriveEditDriverProfileFragment -->
+
+    <!-- DriveStateResolveFragment -->
+
+    <!-- DriveBlackBoxInformation -->
+    <string name="address_edit_fragment_title">Adressdaten bearbeiten</string>
+
+    <!-- AtbDrive -->
+    <string name="atb_drive_fargment_title">Fahrtdaten</string>
+    <string name="atb_drive_begin_label_text">Fahrtbeginn</string>
+    <string name="atb_drive_end_label_text">Fahrtende</string>
+    <string name="atb_drive_start_label_text">Startadresse</string>
+    <string name="atb_drive_finish_label_text">Zieladresse</string>
+    <string name="atb_drive_complete_label_text">Vollständig</string>
+    <string name="atb_drive_empty_address">"Adresse nicht angegeben"</string>
+    <string name="atb_drive_details_menu_item">pPKW-Fahrten</string>
+    <string name="atb_drive_negative_start_km">0 = Minimalwert</string>
+    <string name="atb_drive_start_equals_km">Start &lt; Ende</string>
+    <string name="atb_drive_wrong_kms">inkonsistente Daten</string>
+
+    <!-- AddAtbDrive -->
+    <string name="add_atb_drive_fargment_title">Fahrtdaten hinzufügen</string>
+    <string name="add_atb_drive_start_address">Start-Adresse</string>
+    <string name="add_atb_drive_finish_address">Ziel-Adresse</string>
+    <string name="add_atb_drive_type">Fahrzeug-Nr</string>
+    <string name="add_atb_drive_license_plate">KFZ-Typ</string>
+    <string name="add_atb_drive_with_passenger">Mit.</string>
+    <string name="add_atb_drive_start_time">Fahrtbeginn</string>
+    <string name="add_atb_drive_finish_time">Fahrtende</string>
+    <string name="add_atb_drive_km_start">KM-Start</string>
+    <string name="add_atb_drive_km_end">KM-Ende</string>
+    <string name="add_atb_drive_distance">Distanz</string>
+    <string name="add_atb_drive_finish_error_message">Fahrtende kann nicht vor Fahrtbeginn liegen.</string>
+    <string name="add_atb_drive_no_timestamps_error_message">Fahrtbeginn und Fahrtende benötigt.</string>
+    <string-array name="add_atb_drive_vehicle_types">
+        <item>P</item>
+        <item>S</item>
+    </string-array>
+    <string-array name="add_atb_drive_address_types">
+        <item />
+        <item>Adressfavorit</item>
+        <item>Auftragsort</item>
+        <item>letztes Ziel</item>
+        <item>Ressort</item>
+    </string-array>
+
+    <!-- BlackBoxActivation -->
+
+    <string name="operations_save_user_settings">persönl. Einstellungen</string>
+
+    <!-- PauseReport -->
+
+    <!-- WorkReport -->
+
+    <!-- BlackBoxDeactivation -->
+
+    <string name="transaction_log_transaction">Transaktion</string>
+    <string name="transaction_log_process">Vorgang</string>
+    <string name="transaction_log_label">Label</string>
+    <string name="transaction_log_date">Datum</string>
+    <string name="login_fragment_error_dialog_title">Fehler</string>
+
+    <!-- Chain -->
+    <string name="chain_fragment_title">Transaktionskette</string>
+    <string name="chain_fragment_dialog_message">Alle von dieser Aktivität abhängigen Transaktionen werden zurückgesetzt. Fortfahren?</string>
+    <string name="chain_fragment_dialog_title">Transaktion zurücksetzen</string>
+    <string name="chain_label">Abhängige Transaktionen</string>
+    <string name="chain_description">Nach dem "Zurücksetzen" wird die Synchronisation nicht automatisch ausgelöst. Bitte die Synchronisation manuell starten.</string>
+    <string name="chain_error_label">Fehler</string>
+    <string name="chain_rollback_button_label">Reset</string>
+    <string name="chain_show_error_label">Fehler anzeigen</string>
+    <string name="chain_rollback_finished_message">Zurücksetzen erfolgreich.</string>
+
+    <!-- AttachmentList -->
+    <string name="attachment_list_fragment_title">Anlagenliste</string>
+    <string name="attachment_list_bottom_sheet_menu_item">Anlagenliste</string>
+    <string name="attachment_list_wfmt_path_ba">In BA: %1$s</string>
+    <string name="attachment_list_sort_name_label">Name</string>
+    <string name="attachment_list_sort_size_label">Dateigröße</string>
+    <string name="attachment_list_sort_type_label">Dateityp</string>
+    <string name="attachment_list_sort_create_label">Erstellt</string>
+    <string name="attachment_list_sort_modify_label">Modifiziert</string>
+    <string name="attachment_list_no_such_file_error">Die Datei wurde im lokalen Dateisystem nicht gefunden.</string>
+    <string name="attachment_list_cannot_rename">Datei konnte nicht umbenannt werden.</string>
+    <string name="attachment_list_empty_name_not_allowed">Ungültiger Wert</string>
+
+    <!-- PathDialog -->
+    <string name="path_dialog_wfmt_path">WFMT Path</string>
+    <string name="path_dialog_real_path">Dateien werden auf dem Gerät gespeichert unter:</string>
+    <string name="path_dialog_ok">OK</string>
+
+    <!-- Jobs -->
+    <string name="job_fragment_title">Downloads</string>
+    <string name="nav_menu_jobs">Downloads</string>
+    <string name="job_dialog_title">Downloads</string>
+    <string name="job_restart_all">Alles neu Starten</string>
+    <string name="job_cancel_all">Alles stornieren</string>
+    <string name="job_list_empty">Keine Downloads vorhanden.</string>
+    <string name="job_show_jobs_screen">Fehler anzeigen</string>
+    <string name="job_cancel_dialog_title">Downloads zurücksetzen</string>
+    <string name="job_cancel_dialog_message">Alle Downloads werden zurückgesetzt. Fortfahren?</string>
+    <string name="jobs_no_internet_error">Keine Internetverbindung vorhanden.</string>
+    <string name="jobs_task_done_error">Datei kann nicht geladen werden, da der Auftrag im Status \"Erledigt\" ist.</string>
+
+    <!-- WholeStock -->
+    <string name="whole_stock_fragment_title">Lagerbestand</string>
+    <string name="whole_stock_inventory_short_description">Materialkurztext</string>
+    <string name="whole_stock_inventory_material_number">MatNr</string>
+    <string name="whole_stock_inventory_current_inventory">Aktueller Bestand</string>
+    <string name="whole_stock_inventory_open_quantity">Offene Liefermenge</string>
+    <string name="whole_stock_inventory_unit">Einheit</string>
+    <string name="whole_stock_inventory_delivery_time">Gepl. Lieferdatum</string>
+    <string name="whole_stock_inventory_reorder_level">Meldebest.</string>
+    <string name="whole_stock_inventory_refill_quantity">Auffüllmenge</string>
+
+    <!-- AttachmentBottomSheet -->
+    <string name="attachment_bottom_sheet_fragment_error">Die Anlage ist entfernt.</string>
+    <string name="attachment_bottom_sheet_fragment_share">Teilen</string>
+    <string name="attachment_bottom_sheet_fragment_rename">Umbenennen</string>
+    <string name="attachment_bottom_sheet_fragment_remove">Löschen</string>
+    <string name="attachment_share_dialog_title">Datei teilen</string>
+    <string name="attachment_rename_dialog_title">Datei umbenennen</string>
+    <string name="attachment_remove_dialog_title">Datei löschen</string>
+    <string name="attachment_bottom_sheet_print_button_title">Drucken</string>
+    <string name="attachment_bottom_sheet_open_button_title">Öffnen</string>
+    <string name="attachment_bottom_sheet_file_name_title">Name</string>
+    <string name="attachment_bottom_sheet_wfmt_path">WFMT path</string>
+    <string name="attachment_bottom_sheet_real_path">Gespeichert auf dem Gerät unter:</string>
+    <string name="attachment_bottom_sheet_created_title">Erstellt</string>
+    <string name="attachment_bottom_sheet_size_title">Größe</string>
+    <string name="attachment_bottom_sheet_modified_title">Modifiziert</string>
+    <string name="easys_icon_title">EasyS</string>
+
+    <!-- Materials -->
+    <string name="materials_fragment_title">Materialverfügbarkeit</string>
+    <string name="materials_fragment_phone_title">Mat.Verfügbarkeit</string>
+    <string name="materials_load_title">Laden</string>
+    <string name="materials_post_title">Buchen</string>
+    <string name="material_availability_header_short_description_title">Materialbezeichnung</string>
+    <string name="material_availability_header_material_number_title">MatNr</string>
+    <string name="material_availability_header_item_category_title">Positionstyp</string>
+    <string name="material_availability_header_planned_quantity_title">Geplante Menge</string>
+    <string name="material_availability_header_planned_unit_title">Geplante Menge (Einheit)</string>
+    <string name="material_availability_header_required_date_title">Bestelldatum</string>
+    <string name="material_availability_header_confirmed_date_title">Lieferavis</string>
+    <string name="material_availability_header_confirmed_quantity_title">Bestätigte Menge</string>
+    <string name="material_availability_header_delivered_quantity_title">Gelieferte Menge</string>
+    <string name="material_availability_bottom_sheet_menu_item">Mat.Verfüg.</string>
+    <string name="material_availability_list_is_empty">Zu dieser SMA-Nummer sind keine Materialien in PSL vorhanden.</string>
+    <string name="material_availability_list_not_load">Die verfügbaren Materialien sind noch nicht geladen.</string>
+    <string name="material_availability_sma_number_title">SMA Nr</string>
+
+    <!-- MaterialsFiledsSettings -->
+    <string name="materials_fields_settings_fragment_title">Materialverfügbarkeitspalten konfigurieren</string>
+
+    <!-- MaterialsWholeStockFiledsSettings -->
+    <string name="materials_whole_stock_fields_settings_fragment_title">Lagerbestandspalten konfigurieren</string>
+
+    <!-- BB activation status message -->
+
+    <!-- PostMaterials -->
+    <string name="post_materials_fragment_title">Verbrauchsmaterial verbuchen</string>
+    <string name="post_materials_phone_fragment_title">Material verbuchen</string>
+    <string name="material_post_item_header_material_number_label">MatNr</string>
+    <string name="material_post_item_header_quantity_label">Menge</string>
+    <string name="material_post_item_header_unit_label">Einheit</string>
+    <string name="material_post_bottom_sheet_menu_item">Mat. Buchung</string>
+    <string name="material_post_empty_list_message">Sie haben noch keine Materialien gebucht.</string>
+    <string name="materials_error_not_found">Das Material ist nicht gefunden.</string>
+    <string name="materials_error_less_limit">Die Menge muss größer oder gleich dem Meldebestand (%1$d) sein.</string>
+    <string name="materials_error_more_limit">Die Menge muss kleiner oder gleich dem aktuellen Bestand (%1$d) sein.</string>
+    <string name="material_pos_item_amount_hint">Menge</string>
+
+    <!-- AttachBottomSheetFragment -->
+    <string name="attach_bottom_sheet_make_photo_label">Foto hinzufügen</string>
+    <string name="attach_bottom_sheet_attach_photo_label">Galerie</string>
+    <string name="attach_bottom_sheet_attach_file_label">Datei hinzufügen</string>
+    <string name="attach_no_application_found">Der Dateityp wird von keiner registrierten Anwendung unterstützt.</string>
+    <string name="attach_file_not_found">Datei wurde nicht gefunden.</string>
+
+    <!-- ReEnterPasswordDialog -->
+    <string name="re_enter_password_dialog_title">Falsches Passwort</string>
+    <string name="re_enter_password_dialog_message">Bitte geben Sie das Passwort erneut ein.</string>
+    <string name="re_enter_password_dialog_hint">Passwort</string>
+    <string name="re_enter_password_dialog_ok">Bestätigen</string>
+
+    <!-- ListHost -->
+
+    <!-- PartnerList -->
+    <string name="contact_persons_fragment_title">Ansprechpartnerliste</string>
+    <string name="contact_persons_empty_message">Sie haben noch keine Einträge.</string>
+
+    <!-- RelatedTasks -->
+    <string name="related_tasks_fragment_title">Beteiligte AA</string>
+    <string name="related_tasks_empty_message">Sie haben noch keine Einträge.</string>
+    <string name="material_whole_stock_last_update_message">Letzter Sync am %s</string>
+
+    <string name="update_ready_dialog_message">Neue Version erfolgreich heruntergeladen. Jetzt installieren?</string>
+    <string name="update_ready_dialog_title">Neue Version</string>
+    <string name="update_not_available_dialog_message">Neueste Version bereits installiert.</string>
+    <string name="update_not_available_dialog_title">Versionscheck</string>
+
+    <string name="change_real_finish_dialog_message">Möchten Sie das "IST-Ende" ändern?</string>
+    <string name="change_real_finish_dialog_title">Ist-Ende ändern</string>
+
+    <string name="change_real_finish_dialog_error_message_time_in_past">IST-Endetermin darf nicht in der Vergangenheit liegen.</string>
+    <string name="change_real_finish_dialog_error_message_time_eq_start">IST-Endetermin darf nicht gleich IST-Beginn sein!</string>
+    <string name="change_real_finish_dialog_error_title">Ist-Ende ändern</string>
+
+    <string name="lock_manager_reason_trip">Unzulässig: Sie befinden sich auf einer Fahrt.</string>
+
+    <!--No EFB trip reason -->
+    <string name="no_efb_trip_reason_with_task">zu Auftrags-ID</string>
+    <string name="no_efb_trip_reason_without_task">AA nicht vorhanden</string>
+    <string name="no_efb_trip_reason_free">Nebenzeit</string>
+
+    <!--No EFB trip type -->
+    <string name="no_efb_trip_type_first">Erste Fahrt</string>
+    <string name="no_efb_trip_type_last">Letzte Fahrt</string>
+
+    <!--No EFB list -->
+    <string name="no_efb_list_trip_fragment_title">Fahrten</string>
+    <string name="no_efb_trip_list_card_card_type_label">Tagesbericht</string>
+    <string name="no_efb_trip_list_card_start_time_label">Fahrtbeginn</string>
+    <string name="no_efb_trip_list_card_finish_time_label">Fahrtende</string>
+    <string name="no_efb_trip_list_card_reason_label">Auswahl</string>
+    <string name="no_efb_trip_list_card_task_id_label">Auftrags-ID</string>
+    <string name="no_efb_trip_list_card_emty_view_text">Keine Fahrten vorhanden.</string>
+
+    <!--No EFB create -->
+    <string name="no_efb_create_trip_fragment_title">Neue Fahrt anlegen</string>
+    <string name="no_efb_create_trip_car_name_error_info_label">Fahrtinformationen</string>
+    <string name="no_efb_create_trip_reason_label">Auswahl</string>
+    <string name="no_efb_create_trip_task_id_label">Auftrag-ID</string>
+    <string name="no_efb_create_trip_start_trip_button_label">FAHRT STARTEN</string>
+
+    <!--No EFB active trip -->
+    <string name="no_efb_active_trip_fragment_title">Fahrt aktiv</string>
+    <string name="no_efb_active_trip_fragment_change_start_time_dialog_title">"Fahrtbeginn" aktualisieren</string>
+    <string name="no_efb_active_trip_fragment_change_start_time_dialog_message">Möchten Sie den "Fahrtbeginn"-Wert auf den aktuellen Zeitstempel setzen?</string>
+    <string name="no_efb_active_trip_info_label">Fahrtinformationen</string>
+    <string name="no_efb_active_trip_start_time_label">Fahrtbeginn</string>
+    <string name="no_efb_active_trip_task_id_label">Auftrag-ID</string>
+    <string name="no_efb_active_trip_edit_button_text">NEUSTART</string>
+    <string name="no_efb_active_trip_finish_button_text">FAHRTENDE</string>
+
+    <!--No EFB finish trip -->
+    <string name="no_efb_finish_trip_fragment_title">Fahrtende</string>
+    <string name="no_efb_finish_trip_info_label">Fahrtinformationen</string>
+    <string name="no_efb_finish_trip_start_time_label">Fahrtbeginn</string>
+    <string name="no_efb_finish_trip_finish_time_label">Fahrtende</string>
+    <string name="no_efb_finish_trip_duration_label">Dauer</string>
+    <string name="no_efb_finish_trip_task_id_label">Auftrag-ID</string>
+    <string name="no_efb_finish_trip_save_button_label">SPEICHERN</string>
+    <string name="no_efb_finish_trip_without_save_button_label">LÖSCHEN</string>
+
+    <string name="no_efb_finish_trip_error_finish_time_in_future">Fahrtende darf nicht in der Zukunft liegen!</string>
+    <string name="no_efb_finish_trip_error_finish_time_less_than_start_time">Fahrtbeginn muss vor Fahrtende liegen!</string>
+
+    <string name="no_efb_active_trip_clock_title">Fahrzeit</string>
+
+    <!-- TaskSelector -->
+    <string name="task_selector_fragment_title">Auftrag auswählen</string>
+
+    <!-- Confirmation dialog without last trip -->
+    <string name="no_efb_stop_work_confirmation_dialog_title">TAGESBERICHT</string>
+    <string name="no_efb_stop_work_confirmation_dialog_message">Die letzte Fahrt des Tages fehlt momentan!\n\nManuelle Korrektur des Tagesbericht in LEMAN wird notwendig wenn GEHEN gebucht wird.</string>
+    <string name="no_efb_stop_work_confirmation_dialog_positive_button">BUCHEN</string>
+    <string name="no_efb_stop_work_confirmation_dialog_negative_button">ABBRECHEN</string>
+    <string name="search">Suche</string>
+    <string name="no_efb_operation_transaction_log_label">B-Fahrt</string>
+    <string name="trip_indicator_text">Fahrt aktiv</string>
+    <string name="trip_indicator_action_button_text">Beenden</string>
+
+    <string name="add_team_comment_fragment_title">Ressortinterner Vermerk</string>
+    <string name="team_comment_text_is_empty_validation_message">Bitte Meldung eingeben.</string>
+    <string name="team_comment_text_is_long_validation_message">Meldung zu lang! Max. 1000 Zeichen.</string>
+    <string name="add_team_comment_subtitle">Neue Meldung</string>
+
+    <!-- AlarmScheduler -->
+    <string name="alarm_scheduler_fragment_title">Alarmplaner</string>
+
+    <!-- AlarmEdit -->
+    <string name="alarm_edit_fragment_title">Alarm ändern</string>
+
+    <string name="custom_notification_button_cancel">Löschen</string>
+    <string name="custom_notification_button_snooze_15min">15 Min. später</string>
+    <string name="custom_notification_button_snooze_1h">1 St. später</string>
+
+    <string name="edit_alarm_title_label">Titel</string>
+    <string name="edit_alarm_message_label">Meldung</string>
+    <string name="edit_alarm_time_label">Datum/Zeit</string>
+    <string name="edit_alarm_task_label">Arbeitsauftrag</string>
+    <string name="edit_alarm_save_button_text">Speichern</string>
+    <string name="edit_alarm_cancel_button_text">Abbrechen</string>
+    <string name="edit_alarm_repeatable_label">Wiederholen</string>
+    <string name="edit_alarm_days_of_week_label">Wochentage</string>
+
+    <string name="alarm_repeatable_false">Nein</string>
+
+    <string name="alarm_active_true">Ja</string>
+    <string name="alarm_active_false">Nein</string>
+
+    <string name="delete_alarm_dialog_message">Möchten Sie den Alarm löschen?</string>
+    <string name="delete_alarm_dialog_title">Alarm löschen</string>
+
+    <string name="alarm_card_title_label">Titel</string>
+    <string name="alarm_card_message_title">Meldung</string>
+    <string name="alarm_card_date_time_lable">Datum/Zeit</string>
+    <string name="alarm_card_time_lable">Zeit</string>
+    <string name="alarm_card_repeatable_label">Wiederholen</string>
+    <string name="alarm_card_active_label">Aktiv</string>
+    <string name="alarm_card_taskid_label">Arbeitsauftrag</string>
+
+    <string name="alarm_list_empty_message">Sie haben noch keinen Alarm.</string>
+
+    <string name="alarm_should_start_hint_message">Auftrag muss gestartet werden</string>
+    <string name="alarm_should_finish_hint_message">Soll-Ende kann gefährdet werden</string>
+
+    <string name="day_of_week_1">Montag</string>
+    <string name="day_of_week_2">Dienstag</string>
+    <string name="day_of_week_3">Mittwoch</string>
+    <string name="day_of_week_4">Donnerstag</string>
+    <string name="day_of_week_5">Freitag</string>
+    <string name="day_of_week_6">Samstag</string>
+    <string name="day_of_week_7">Sonntag</string>
+
+    <string name="select_days_of_week_dialog_title">Wochentage auswählen</string>
+
+    <string-array name="days_of_week">
+        <item>@string/day_of_week_1</item>
+        <item>@string/day_of_week_2</item>
+        <item>@string/day_of_week_3</item>
+        <item>@string/day_of_week_4</item>
+        <item>@string/day_of_week_5</item>
+        <item>@string/day_of_week_6</item>
+        <item>@string/day_of_week_7</item>
+    </string-array>
+
+    <string name="install_google_maps_dialog_title">Google Maps</string>
+    <string name="install_google_maps_dialog_message">Google Maps nicht gefunden! Möchten Sie es installieren?</string>
+    <string name="details_map_pd_address_hint">PD-Adresse</string>
+    <string name="details_map_installation_location_a_hint">Montageort A</string>
+    <string name="details_map_installation_location_b_hint">Montageort B</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/hint"
+        style="@style/MadNew.Text.Overline"
+        android:textColor="@color/primaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_vzg_delay_cause_label" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text"
+        style="@style/MadNew.Text.Body1"
+        android:maxLines="5"
+        android:paddingBottom="3dp"
+        android:ellipsize="end"
+        android:textColor="@color/primaryColor"
+        android:saveEnabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Text"
+        android:text="@string/settings_fragment_rest_all_dialog_message"/>
+
+    <View
+        android:id="@+id/separator"
+        style="@style/MadNew.Separator"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin" />
+
+</LinearLayout>

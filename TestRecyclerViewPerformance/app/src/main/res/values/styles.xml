@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MadNew.CardView" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">8sp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="cornerRadius">2dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/cardStrokeColor</item>
+        <item name="strokeWidth">1px</item>
+        <item name="backgroundColor">@color/task_card_background_color</item>
+        <item name="cardBackgroundColor">@color/task_card_background_color</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="MadNew.IconButton.Secondary">
+<!--        <item name="android:background">@drawable/image_button_selector_secondary</item>-->
+<!--        <item name="android:tint">@color/selector_icon</item>-->
+    </style>
+
+    <style name="MadNew.IconButton"/>
+
+    <style name="MadNew" />
+
+    <style name="MadNew.IconButton.Primary">
+<!--        <item name="android:background">@drawable/image_button_selector_primary</item>-->
+<!--        <item name="android:tint">@color/cardview_light_background</item>-->
+    </style>
+
+    <style name="MadNew.Text.Overline">
+        <item name="android:textColor">@color/headerColor</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="MadNew.Text.Body1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="MadNew.Text">
+        <item name="android:paddingStart">
+            @dimen/standard_atom_horizontal_padding
+        </item>
+        <item name="android:paddingEnd">
+            @dimen/standard_atom_horizontal_padding
+        </item>
+    </style>
+
+    <style name="MadNew.Separator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2px</item>
+        <item name="android:background">@color/separatorStyleColor</item>
+    </style>
+
+</resources>

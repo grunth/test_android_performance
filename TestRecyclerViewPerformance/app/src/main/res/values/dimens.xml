@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_height">94dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="standard_atom_horizontal_padding">16dp</dimen>
+    <dimen name="text_input_layout_horizontal_padding">12dp</dimen>
+    <dimen name="bottom_navigation_view_height">60dp</dimen>
+    <dimen name="bottom_navigation_view_first_visible">76dp</dimen>
+
+    <dimen name="font_button">14sp</dimen>
+
+    <!-- materials -->
+    <dimen name="materials_column_description">250sp</dimen>
+    <dimen name="materials_column_material_number">100sp</dimen>
+    <dimen name="materials_column_item_category">150sp</dimen>
+    <dimen name="materials_column_planned_quantity">100sp</dimen>
+    <dimen name="materials_column_planned_unit">100sp</dimen>
+    <dimen name="materials_column_required_date">150sp</dimen>
+    <dimen name="materials_column_confirmed_quantity">100sp</dimen>
+    <dimen name="materials_column_confirmed_date">150sp</dimen>
+    <dimen name="materials_column_delivered_quantity">100sp</dimen>
+
+
+    <dimen name="list_host_details_width">300dp</dimen>
+
+</resources>

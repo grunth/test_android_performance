@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/gosipov/AndroidStudioProjects/mad/prototypes/TestJetPackRecyclerPeformance/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.136" />
+        <entry key="..\:/Users/gosipov/AndroidStudioProjects/mad/prototypes/TestJetPackRecyclerPeformance/app/src/main/res/drawable/ic_activ_task_stop_24dp.xml" value="0.163" />
+        <entry key="..\:/Users/gosipov/AndroidStudioProjects/mad/prototypes/TestJetPackRecyclerPeformance/app/src/main/res/drawable/ic_assigned_tasks_menu_icon.xml" value="0.1825" />
+        <entry key="..\:/Users/gosipov/AndroidStudioProjects/mad/prototypes/TestJetPackRecyclerPeformance/app/src/main/res/drawable/ic_attach_file_24dp.xml" value="0.163" />
+        <entry key="..\:/Users/gosipov/AndroidStudioProjects/mad/prototypes/TestJetPackRecyclerPeformance/app/src/main/res/drawable/ic_launcher_background.xml" value="0.136" />
+        <entry key="..\:/Users/gosipov/AndroidStudioProjects/mad/prototypes/TestJetPackRecyclerPeformance/app/src/main/res/drawable/ic_notification_bell_one.xml" value="0.163" />
+        <entry key="..\:/Users/gosipov/AndroidStudioProjects/mad/prototypes/TestJetPackRecyclerPeformance/app/src/main/res/drawable/ic_task_card_active_task.xml" value="0.163" />
+        <entry key="..\:/Users/gosipov/AndroidStudioProjects/mad/prototypes/TestJetPackRecyclerPeformance/app/src/main/res/drawable/ic_task_card_jeopardy.xml" value="0.1875" />
+        <entry key="..\:/Users/gosipov/AndroidStudioProjects/mad/prototypes/TestJetPackRecyclerPeformance/app/src/main/res/drawable/ic_task_card_task_open_no_dependencies.xml" value="0.1875" />
+        <entry key="..\:/Users/gosipov/AndroidStudioProjects/mad/prototypes/TestJetPackRecyclerPeformance/app/src/main/res/drawable/ic_task_card_task_reserved.xml" value="0.1825" />
+        <entry key="..\:/Users/gosipov/AndroidStudioProjects/mad/prototypes/TestJetPackRecyclerPeformance/app/src/main/res/drawable/image_button_selector_secondary.xml" value="0.1805" />
+        <entry key="..\:/Users/gosipov/AndroidStudioProjects/mad/prototypes/TestJetPackRecyclerPeformance/app/src/main/res/drawable/shape1.xml" value="0.136" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextLabeled">
+        <attr name="hint" format="string" />
+        <attr name="text" format="string" />
+        <attr name="drawable" format="integer" />
+        <attr name="underlined" format="boolean" />
+        <attr name="textStyle" format="reference" />
+        <attr name="hintStyle" format="reference" />
+        <attr name="labelEnabled" format="boolean" />
+        <attr name="clickable" format="boolean" />
+        <attr name="android:inputType"/>
+        <attr name="android:maxLength"/>
+        <attr name="android:maxLines"/>
+        <attr name="android:minLines"/>
+        <attr name="android:lines"/>
+    </declare-styleable>
+</resources>
