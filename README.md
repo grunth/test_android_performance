@@ -2,6 +2,8 @@
 
 # https://github.com/ColdTea-Projects/ThouShaltCompose - drag and drop example
 
+# https://engineering.premise.com/measuring-render-performance-with-jetpack-compose-c0bf5814933
+
 package com.example.myapplicationtestcompose
 
 import android.os.Bundle
